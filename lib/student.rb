@@ -1,5 +1,3 @@
 class Student < User
-  def initialize(first_name, last_name)
-
-  end
+  attr_accessor :student
 end
