@@ -1,3 +1,7 @@
 class Student < User
-  attr_accessor :student
+  def initialize(first_name, last_name)
+    @first_name = first_name
+    @last_name = last_name
+    @@all << self
+  end
 end
